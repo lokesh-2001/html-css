@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form2.css" type="text/css">    
+    <title>Document</title>
+</head>
+<body>
+    <form action="" class="form2" method="POST">
+        <label for="field1">
+            <span>Enter Your Name </span><input type="text" name="field1" required="true">
+        </label><br>
+        <label for="field2">
+            <span>Enter Your Email Address </span><input type="email" name="field2" required="true">
+        </label><br>
+        <label for="field3">
+            <span>Short Subject </span><input type="text" name="field3" required="true">
+        </label><br>
+        <label for="field4">
+            <span>Message </span><textarea name="field4" onkeyup="adjust_textarea(this)" required="true"></textarea>
+        </label><br>
+        <label>
+            <span></span><input type="submit" value="Send Letter">
+        </label><br>
+    </form>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form6.css" type="text/css">
+    <link rel="stylesheet" href="form6.js" type="text/javascript">
+
+    <title>Document</title>
+</head>
+<body>
+        <form class="form6">
+            <ul>
+                <li>
+                    <label for="name">Name</label>
+                    <input type="text" name="name" maxlength="100" required="true">
+                    <span>Enter your full name here</span>
+                </li>
+
+                <li>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" maxlength="100">
+                    <span>Enter your valid email address</span>
+                </li>
+                
+                <li>
+                    <label for="url">Website</label>
+                    <input type="url" name="url" maxlength="100">
+                    <span>Your website address (e.g.-> https://www.google.com)</span>
+                </li>
+                <li>
+                    <label for="bio">About You</label>
+                    <textarea name="bio" onkeyup="adjust_textarea(this)"></textarea>
+                    <span>Say something about yourself</span>
+                </li>
+                <li>
+                    <input type="submit" value="send this">
+                </li>
+
+            </ul> 
+
+        </form>
+    
+</body>
+</html>

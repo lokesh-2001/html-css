@@ -1,0 +1,98 @@
+.form3{
+    max-width: 500px;
+    padding: 20px 12px 10px 20px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.heading{
+    font-weight: bold;
+    font-style: italic;
+    border-bottom: 2px darkslategrey solid;
+    margin-bottom: 20px;
+    font-size: 25px;
+    padding-bottom: 3px;
+}
+
+.form3 label{
+    display: block;
+    margin: 0px 0px 15px 0px;   
+}
+
+.form3 label>span{
+    width: 100px;
+    font-weight: bold;
+    float: left;
+    padding-top: 8px;
+    padding-right: 5px;   
+}
+
+.form3 span.required{
+    color: red;
+}
+
+.form3 .tel-number-field{
+    width: 40px;
+    text-align: center;
+}
+
+.form3 input .input-field, .form3 .select-field{
+    width: 48%;
+}
+.form3 input.input-field,
+.form3  .select-field,
+.form3  .tel-number-field,
+.form3  .textarea-field{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 2px solid midnightblue;
+    box-shadow: 1px 1px 4px dimgray;
+    -moz-box-shadow: 1px 1px 4px dimgray;
+	-webkit-box-shadow: 1px 1px 4px dimgray;
+    border-radius: 4px;
+    -moz-box-shadow: 4px;
+	-webkit-box-shadow: 4px;
+    padding: 7px;
+    outline:none;
+}
+
+.form3 .input-field:focus,
+.form3  .select-field:focus,
+.form3  .tel-number-field:focus,
+.form3  .textarea-field:focus{
+
+    border: 3px solid saddlebrown;
+
+}
+
+.form3 .textarea-field{
+    height: 100px;
+    width: 55%;
+}
+
+.form3 input[type=submit],
+.form3 input[type=button]{
+
+        border: 2px solid black;
+        border-radius: 4px;
+        padding: 8px 15px;
+        background:mintcream;
+        box-shadow: 1px 1px 2px paleturquoise;
+        -moz-box-shadow:1px 1px 2px paleturquoise;
+        -webkit-box-shadown: 1px 1px 2px paleturquoise;
+        -moz-box-shadow: 4px;
+        -webkit-box-shadow: 4px;
+    
+}
+
+.form3 input[type=submit]:hover,
+.form3 input[type=button]:hover{
+
+    background: plum;
+    color:brown;
+
+}    
+
+
+

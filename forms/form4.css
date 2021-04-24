@@ -1,0 +1,103 @@
+.form4{
+    max-width: 450px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form4 label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form4 label>span{
+    float: left;
+    width: 100px;
+    color: crimson;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px lightsteelblue;
+}
+
+.form4 fieldset{
+    border-radius: 10px;
+    -webkit-box-radius: 10px;
+    -moz-box-radius: 10px;
+    margin: 0px 0px 10px 0px;
+    border: 3px solid black;
+    background:ghostwhite;
+    padding: 20px;
+    box-shadow: inset 0px 0px 15px lightgrey;
+    -webkit-box-shadow: inset 0px 0px 15px lightgrey;
+    -moz-box-shadow: inset 0px 0px 15px lightgrey;
+}
+
+.form4 fieldset legend{
+
+    color:darkblue;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-radius: 5px 5px 0px 0px;
+    -webkit-border-radius: 5px 5px 0px 0px;
+    -moz-border-radius: 5px 5px 0px 0px;
+    font-size: 25px;
+    font-weight: bold;
+    background:honeydew;
+    padding: 0px 8px 3px 8px;
+    box-shadow: -0px -1px 5px lightgrey;   
+    -webkit-box-shadow: -0px -1px 5px lightgrey;
+    -moz-box-shadow: -0px -1px 5px lightgrey;
+}
+
+.form4 textarea{
+
+    width: 250px;
+    height: 100px;
+}
+.form4 input[type=text],
+.form4 input[type=date],
+.form4 input[type=datetime],
+.form4 input[type=number],
+.form4 input[type=search],
+.form4 input[type=time],
+.form4 input[type=url],
+.form4 input[type=email],
+.form4 select, 
+.form4 textarea{
+
+    border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+    border: 2px solid black;
+    outline: none;
+    color:darkblue;
+    font-weight: bold;
+    font-style: 18px;
+    padding: 5px 8px;
+    box-shadow: inset 0px 0px 10px lightsteelblue;
+    -webkit-box-shadow: inset 0px 0px 10px lightsteelblue;
+    -moz-box-shadow: inset 0px 0px 10px lightsteelblue;
+    background:seashell;
+    width: 50%;
+}
+.form4  input[type=submit],
+.form4  input[type=button]{
+	background:lavender;
+	border: 2px solid black;
+	padding: 5px 15px 5px 15px;
+	color:crimson;
+    font-size: 25px;
+	box-shadow: inset -1px -1px 3px lightblue;
+	-moz-box-shadow: inset -1px -1px 3px lightblue;
+	-webkit-box-shadow: inset -1px -1px 3px lightblue;
+	border-radius: 3px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;	
+	font-weight: bold;
+}
+
+.required{
+	color:red;
+	font-weight:normal;
+}
+

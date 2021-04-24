@@ -1,0 +1,114 @@
+.form6{
+	max-width:400px;
+	margin:50px auto;
+	background:#fff;
+	border-radius:2px;
+	padding:20px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+.form6 h1{
+	display: block;
+	text-align: center;
+	padding: 0;
+	margin: 0px 0px 20px 0px;
+	color: #5C5C5C;
+	font-size:x-large;
+}
+.form6 ul{
+	list-style:none;
+	padding:0;
+	margin:0;	
+}
+.form6 li{
+	display: block;
+	padding: 9px;
+	border:1px solid #DDDDDD;
+	margin-bottom: 30px;
+	border-radius: 3px;
+}
+.form6 li:last-child{
+	border:none;
+	margin-bottom: 0px;
+	text-align: center;
+}
+.form6 li > label{
+	display: block;
+	float: left;
+	margin-top: -19px;
+	background: #FFFFFF;
+	height: 14px;
+	padding: 2px 5px 2px 5px;
+	color: #B9B9B9;
+	font-size: 14px;
+	overflow: hidden;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.form6 input[type="text"],
+.form6 input[type="date"],
+.form6 input[type="datetime"],
+.form6 input[type="email"],
+.form6 input[type="number"],
+.form6 input[type="search"],
+.form6 input[type="time"],
+.form6 input[type="url"],
+.form6 input[type="password"],
+.form6 textarea,
+.form6 select 
+{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	display: block;
+	outline: none;
+	border: none;
+	height: 25px;
+	line-height: 25px;
+	font-size: 16px;
+	padding: 0;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+.form6 input[type="text"]:focus,
+.form6 input[type="date"]:focus,
+.form6 input[type="datetime"]:focus,
+.form6 input[type="email"]:focus,
+.form6 input[type="number"]:focus,
+.form6 input[type="search"]:focus,
+.form6 input[type="time"]:focus,
+.form6 input[type="url"]:focus,
+.form6 input[type="password"]:focus,
+.form6 textarea:focus,
+.form6 select:focus 
+{
+
+    color: teal;
+    font-size: 20px;
+    font-weight: bold;
+}
+.form6 li > span{
+	background: #F3F3F3;
+	display: block;
+	padding: 3px;
+	margin: 0 -9px -9px -9px;
+	text-align: center;
+	color: #C0C0C0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+.form6 textarea{
+	resize:none;
+}
+.form6 input[type="submit"],
+.form6 input[type="button"]{
+	background: #2471FF;
+	border: none;
+	padding: 10px 20px 10px 20px;
+	border-bottom: 3px solid #5994FF;
+	border-radius: 3px;
+	color: #D2E2FF;
+}
+.form6 input[type="submit"]:hover,
+.form6 input[type="button"]:hover{
+	background: #6B9FFF;
+	color:#fff;
+}
